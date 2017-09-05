@@ -102,3 +102,11 @@
 + **Current** | Senior Editor, Technology Literary Society, IIT Kharagpur
 + **Jul '15 - Jan '16** | Junior Coordinator at National Students' Space Challenge
 + **Jul '15 - Jan '16** | Crew Member at Space Technolgy Students' Society
+
+### Courses Undertaken
++ Programming and Data Structures
++ Design and Analysis of Algorithms
++ Discrete Mathematics
++ Probability and Statistics
++ Object Oriented System Design
++ Linear Algebra
