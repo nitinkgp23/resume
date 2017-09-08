@@ -65,7 +65,7 @@
 + ##### Sanskrit text segmentation using NLP and neural networks
     (*Ongoing*)
     (*Under Prof. Pawan Goyal*)
-    
+
     + Currently using seq2seq model approach for word segmentation and machine translation.
     + Will use more complex NLP algorithms and deep learning approach to achieve the task
 
@@ -89,22 +89,6 @@
     + Worked as a full stack developer in building the website of KWoC, using Flask as backend, and Jekyll as the frontend.
     + Mentored over 50 students, in projects varying in Python and Android.
 
-### Personal Projects
-+ ##### Scarner's Dice
-    Link | *Mar '16*
-    + Built a 2-player android dice game
-
-+ ##### Birthday Bot
-    Link | *Dec '16*
-    + Built an automatic bot that likes and comments on all your birthday posts
-    + Used Selenium WebDriver to achieve the above task.
-
-### Positions of Responsibility
-+ **Current** | Executive Head, Kharagpur Open Source Society
-+ **Current** | Senior Editor, Technology Literary Society, IIT Kharagpur
-+ **Current** | Web Secretary, Mathematics Colloquium, IIT Kharagpur
-+ **Jul '15 - Jan '16** | Junior Coordinator at National Students' Space Challenge
-+ **Jul '15 - Jan '16** | Crew Member at Space Technolgy Students' Society
 
 ### Courses Undertaken
 + Programming and Data Structures
@@ -115,9 +99,13 @@
 + Linear Algebra
 + Computer Organisation and Architecture
 
-### Scholastic Achievements
-+ Secured 98.11 percentile in JEE Advanced 2015
-+ Secured 99.33 percentile in JEE Mains 2015
-+ Recipient of Innovation of Science Pursuit for Inspire Research (INSPIRE) %Scholarship
-+ Secured All India Rank 2, in National Cyber Olympiad in high school 
-+ State-level awardee at National Children Science Congress
+
+### Personal Projects
++ ##### Scarner's Dice
+    Link | *Mar '16*
+    + Built a 2-player android dice game
+
++ ##### Birthday Bot
+    Link | *Dec '16*
+    + Built an automatic bot that likes and comments on all your birthday posts
+    + Used Selenium WebDriver to achieve the above task.

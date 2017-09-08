@@ -1,0 +1,275 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{extarticle} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+\fontspec{[FontAwesome.otf]}
+
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+%\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be 
+%\usepackage{fullpage}
+\usepackage{geometry}
+\geometry{a4paper,margin=0.40cm}
+%\geometry{a4paper,left=20mm, top=20mm}
+ %To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+%\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\definecolor{linkcolour}{rgb}{0.3,0.3,0.3} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{0pt}{0pt} % Spacing around sections
+
+\usepackage{multicol}
+\setlength{\columnsep}{0cm}
+
+\usepackage{textcomp}
+
+\usepackage{fontawesome}
+
+\def\arraystretch{0.79}
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+\begin{multicols}{3}
+% \par{\centering\normalsize {\textsc{Undergraduate student at Indian Institute of Technology, Kharagpur}}\par}\normalsize
+% \par{\centering\normalsize {\textsc{Department of Computer Science and Engineering}}\par}\normalsize
+%\par{{\begin{center}Dual Degree, \emph{Computer Science and Engineering}\end{center}}}
+%\normalsize  \faGlobe\ {\href{http://nitinchoudhary.in/}{nitinchoudhary.in}}\\
+\normalsize \faGithub\ {\href{https://github.com/nitinkgp23}{nitinkgp23}}\\
+\normalsize  \faLinkedinSquare\ {\href{https://www.linkedin.com/in/nitin-choudhary-kgp}{nitin-choudhary-kgp}}\\
+\columnbreak
+\normalsize\par{\centering{\huge Nitin \textsc{Choudhary}}\par} % Your name
+\par{\centering\normalsize {\textsc{E-205, Azad Hall of Residence, \\ IIT Kharagpur, West Bengal\\ India - 721302}}\hfill\par}
+\columnbreak
+\raggedright\hfill\normalsize \faEnvelope\ {\href{mailto:nitin.iitkgp23@gmail.com}{nitin.iitkgp23@gmail.com}}\\
+\raggedright\hfill{\faPhone\ +91-8768884446}
+\end{multicols}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\vspace{-0.6cm}
+\section{Education}
+
+\begin{tabular}{r|p{18cm}}	
+2015-2020 & Int. MSc in \textbf{Mathematics and Computing} \hfill{\textbf{CGPA : 8.33}}\\
+&\textbf{Indian Institute of Technology}, Kharagpur\\
+2015 & Intermediate in CBSE, \textbf{Central Academy}, Kota  \hfill{\textbf{96.2 \%}}\\
+2013 & Matriculation in ICSE, \textbf{Saint Francis School}, Deoghar  \hfill{\textbf{97.2 \%}}
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS 
+%----------------------------------------------------------------------------------------
+
+\section{Technical Skills}
+
+\begin{tabular}{r|p{18cm}}
+\textsc{Programming} & \itshape{Proficient in} Python, C, C++ and Java ; \itshape{competent in} Javascript, Lua and Android. \\
+\textsc{Libraries / Frameworks} & \itshape{ML/NN: }scikit-learn, Tensorflow, Torch, OpenCV\\
+& \itshape{Others: }numpy, scipy, pandas, matplotib, django, flask\\
+% \textsc{Databases} & MySQL, MongoDB, PostgreSQL\\
+\textsc{Systems / Platforms} & Git, Linux\\
+\textsc{Markup / Templating} & HTML, CSS, LaTex
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	Academic Projects
+%----------------------------------------------------------------------------------------
+
+\section{Academic Projects}
+
+\begin{tabular}{r|p{18cm}}
+
+\textsc{Feb - Apr} & \textbf{GPA Predictor using Machine Learning models and neural networks}\hfill\textbf{\href{http://cse.iitkgp.ac.in/~pawang/}{Under Prof. S. K. Barai}}\\
+\textsc{2017}\\
+& \footnotesize{- Created an institute-level GPA predictor for a student, which would take his previous GPA's as input, and predict his GPA's in the upcoming semesters}\\
+& \footnotesize{- Uses last 10 years of grades for over 50 students in each department as training data, so as to identify the difficulty level of each semester.
+}\\
+\multicolumn{2}{c}{} \\
+%--------------------------------------------
+%--------------------------------------------
+\textsc{Aug 2017} & \textbf{Utilising Social Media for Disaster relief managment}\hfill\textbf{\href{http://cse.iitkgp.ac.in/~pawang/}{Under Prof. Saptarshi Saha}}\\
+\textbf{Ongoing}\\
+& \footnotesize{- Treating people as social sensors and utlizing their social intelligence at a disaster site, by extracting the tweets and facebook posts made, in relation to a particular disaster.}\\
+& \footnotesize{- Create a post disaster management system, that would show the need and avalaibility tweets on a map based interface, so as to easily connect NGOs, volunteers and the victims to appropriate places, in real time.}\\
+& \footnotesize{- Use NLP algorithms to extract only the related tweets and then apply a deep learning model to classify between the 'need' tweets and the 'availability' tweets.}\\
+\multicolumn{2}{c}{} \\
+%--------------------------------------------
+%--------------------------------------------
+\textsc{Aug 2017} & \textbf{Sanskrit text segmentation using NLP and neural networks}\hfill\textbf{\href{http://cse.iitkgp.ac.in/~pawang/}{Under Prof. Pawan Goyal}}\\
+\textbf{Ongoing}\\
+& \footnotesize{- Currently using seq2seq model approach for word segmentation and machine translation.}\\
+& \footnotesize{- Will use more complex NLP algorithms and deep learning approach to achieve the task.}\\
+\multicolumn{2}{c}{} \\
+%--------------------------------------------
+%--------------------------------------------
+%\textsc{Apr 2016} & \textbf{Term Paper on Fuzzy Logic Congestion Control in %TCP/IP in Diff-Serv Networks} \\
+%& \footnotesize{}\\
+%\multicolumn{2}{c}{} \\
+%--------------------------------------------
+%--------------------------------------------
+%\textsc{Apr 2016} & \textbf{Term Paper on Automatic Detection of Landforms on %Mars using Neural Networks} \\
+%& \footnotesize{}\\
+%\multicolumn{2}{c}{} \\
+
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+
+\section{Experience}
+
+\begin{tabular}{r|p{18cm}}
+
+\textsc{May 2017} & \textbf{Machine Learning Intern}\hfill\textbf{\href{http://www.dewinterindia.com/}{Dewinter Opticals, New Delhi}}\\
+\\
+& \footnotesize{- Worked on integrating automatic detection of graphite flakes in MaterialPlus and WeldCheck.}\\
+& \footnotesize{- Was solely responsible for building a Convolutional Neural Networks model, to identify between 5 different types of graphite flakes present in grey cast iron. }\\
+& \footnotesize{- Used both Tensorflow and Torch as independent platforms to implement the neural network problem.
+}\\
+\multicolumn{2}{c}{} \\
+%--------------------------------------------
+%--------------------------------------------
+\textsc{May - Aug} & \textbf{Developer at Google Summer of Code} \textsc\hfill\textbf{\href{http://sunpy.org/}{SunPy under OpenAstronomy}}\\
+\textsc{2017}\\
+& \footnotesize{- Wrote a full-fledged high-level JSOC Client, using drms package as its backend, to download astronomical data from JSOC servers.}\\
+& \footnotesize{- Wrote a full test-suite to cover the drms package, using pytest and different mock testing packages. }
+\multicolumn{2}{c}{} \\
+%--------------------------------------------
+%--------------------------------------------
+\textsc{Jan 2017} & \textbf{Software Developer Head}\hfill\textbf{\href{http://kossiitkgp.in/}{Kharagpur Open Source Society}}\\
+\textbf{Ongoing}\\
+& \footnotesize{- Conducted Kharagpur Winter of Code (KWoC), to promote open-source development in and around campus, which brought over 900+}\\
+& \footnotesize{registrations, across more than 25 colleges.
+}\\
+& \footnotesize{- Worked as a full stack developer in building the website of KWoC, using Flask as backend, and Jekyll as the frontend.}\\
+& \footnotesize{- Mentored over 50 students, in projects varying in Python and Android.}\\
+\multicolumn{2}{c}{} \\
+
+\end{tabular}
+
+
+
+%----------------------------------------------------------------------------------------
+%	COURSEWORK
+%----------------------------------------------------------------------------------------
+
+ \section{Coursework
+ \hfill\small\textsc{(T)heory and (L)aboratory}}
+
+ \begin{multicols}{2}
+ - Programming and Data Structures (T/L) \\
+ - Discrete Mathematics \\
+ - Design and Analysis of Algorithms (T/L) \\
+ - Probability and Statistics \\
+ - Soft Computing Tools in Engineering \\
+ - Object Oriented Software Design* (T/L) \\
+ - Linear Algebra* \\
+ - Computer Organisation and Architecture*
+ \end{multicols}
+ {\hfill{ * Currently Studying}}
+ 
+
+
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL PROJECTS
+%----------------------------------------------------------------------------------------
+
+\vspace{-0.3cm}
+\section{Personal Projects}
+
+\begin{tabular}{r|p{18cm}}
+
+\textsc{Dec 2016} & \textbf{Scarner's Dice} \textsc{}\hfill\textbf{Android}\\
+& \footnotesize{- Made a basic android 2-player game that works on random dice throwing. The code can be found \textbf{\href{https://github.com/nitinkgp23/ScarnersDice}{here}}}\\
+\multicolumn{2}{c}{} \\
+
+\textsc{Apr 2016} & \textbf{Birthday Bot}\hfill\textbf{Python}\\
+& \footnotesize{- Built a automatic bot, that likes and comments on all your birthday wishes.}\\
+& \footnotesize{- Uses selenium to automate the broswer to acheive the task. The code can be found \textbf{\href{https://github.com/nitinkgp23/bdaybot}{here}}}\\
+\multicolumn{2}{c}{} \\
+
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	POSITIONS OF RESPONSIBILITY
+%----------------------------------------------------------------------------------------
+
+%\section{Positions of Responsibility}
+
+%\begin{tabular}{r|p{18cm}}
+%\textsc{Current} & \textbf{Executive Head}, Kharagpur Open Source Society\\
+%\textsc{Current} & \textbf{Executive Editor}, Technology Literary Society, %IIT Kharagpur \\
+%& \footnotesize{- Managing the content and design team of the society.}\\
+%& \footnotesize{- Writer in the English Team, and working as a senior editor %for all English publications.}\\
+%\textsc{Apr 2016} & \textbf{Developer}, MetaKGP, IIT Kharagpur \\
+%\textsc{Apr 2015} & \textbf{Core Team Member}, Space Technology Students' %Society, IIT Kharagpur
+%\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	ACHIEVEMENTS
+%----------------------------------------------------------------------------------------
+
+% \section{Scholastic Achievements}
+
+%\begin{multicols}{1}
+% - Secured 98.11 percentile in JEE Advanced 2015 \\
+% - Secured 99.33 percentile in JEE Mains 2015 \\ 
+% - Recipient of Innovation of Science Pursuit for Inspire Research (INSPIRE) %Scholarship \\
+% - Secured All India Rank 2, in National Cyber Olympiad in high school \\
+% - State-level awardee at National Children Science Congress \\
+%\end{multicols}
+
+%----------------------------------------------------------------------------------------
+
+%\newpage
+%----------------------------------------------------------------------------------------
+
+\end{document}
