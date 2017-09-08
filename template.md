@@ -66,7 +66,6 @@
     (*Ongoing*)
     (*Under Prof. Pawan Goyal*)
 
-
 ### Experience
 
 + ##### Student Developer at Google Summer of Code, 2017
@@ -100,6 +99,7 @@
 ### Positions of Responsibility
 + **Current** | Executive Head, Kharagpur Open Source Society
 + **Current** | Senior Editor, Technology Literary Society, IIT Kharagpur
++ **Current** | Web Secretary, Mathematics Colloquium, IIT Kharagpur
 + **Jul '15 - Jan '16** | Junior Coordinator at National Students' Space Challenge
 + **Jul '15 - Jan '16** | Crew Member at Space Technolgy Students' Society
 
@@ -110,3 +110,4 @@
 + Probability and Statistics
 + Object Oriented System Design
 + Linear Algebra
++ Computer Organisation and Architecture
